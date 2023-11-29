@@ -23,7 +23,7 @@ return [
 	'watermark_text_alpha' => 0.05,
 	'show_watermark_image' => false,
 	'watermark_image_path'       => '',
-    'watermark_image_alpha'      => 0.05,
+    'watermark_image_alpha'      => 0.03,
     'watermark_image_size'       => 'D',
     'watermark_image_position'   => 'P',
 	'custom_font_dir'      => base_path('public/assets/fonts/'),
