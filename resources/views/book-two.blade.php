@@ -941,7 +941,7 @@
         <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
     </header>
     <div class="card">
-        <h2>การบวกและลบเลขโดยใช้สูตรลิตเติลเฟรนด์ <span style="color:red">ยังไม่ได้ใส่รูป หน้า 1</span> </h2>
+        <h2>การบวกและลบเลขโดยใช้สูตรลิตเติลเฟรนด์ <span style="color:red">ยังไม่ได้ใส่รูปหน้า 1</span> </h2>
     </div>
 
     <div style="text-align: left;margin-left:70px;margin-top:20px ">
@@ -1010,7 +1010,7 @@
         <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
     </header>
     <div class="card">
-        <h2>การบวกและลบเลขโดยใช้สูตรลิตเติลเฟรนด์ <span style="color:red">ยังไม่ได้ใส่รูป หน้า 2</span> </h2>
+        <h2>การบวกและลบเลขโดยใช้สูตรลิตเติลเฟรนด์ <span style="color:red">ยังไม่ได้ใส่รูปหน้า 2</span> </h2>
     </div>
 
     <div style="text-align: left;margin-left:70px;margin-top:20px ">
