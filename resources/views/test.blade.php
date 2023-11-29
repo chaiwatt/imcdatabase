@@ -3,7 +3,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>สูตรบิ๊กเฟรนด์ -6</h2>
+    <h2>สูตรลิตเติลเฟรนด์ -1 </h2>
 </div>
 {{-- <div style="margin-top: 10px;margin-left:50px">
     <span style="font-size: 20px">แบบฝึกหัดที่ 1 ให้นักเรียนใช้นิ้วมือในการคิดคำตอบ</span>
@@ -21,7 +21,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',28) as $problem)
+    @foreach ($problems->where('proplem_table_id',163) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -63,7 +63,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',29) as $problem)
+    @foreach ($problems->where('proplem_table_id',164) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -104,7 +104,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',30) as $problem)
+    @foreach ($problems->where('proplem_table_id',165) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -157,7 +157,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',31) as $problem)
+    @foreach ($problems->where('proplem_table_id',166) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -198,7 +198,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',32) as $problem)
+    @foreach ($problems->where('proplem_table_id',167) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -239,7 +239,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',33) as $problem)
+    @foreach ($problems->where('proplem_table_id',168) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -276,7 +276,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>จับเวลา: ใช้นิ้วมือบวกและลบเลข สูตรบิ๊กเฟรนด์ -6 </h2>
+    <h2>จับเวลา: ใช้นิ้วมือบวกและลบเลข สูตรลิตเติลเฟรนด์ -1 </h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
@@ -292,7 +292,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',34) as $problem)
+    @foreach ($problems->where('proplem_table_id',169) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -338,7 +338,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',35) as $problem)
+    @foreach ($problems->where('proplem_table_id',170) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -380,7 +380,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>แบบฝึกหัด สูตรบิ๊กเฟรนด์ -6</h2>
+    <h2>แบบฝึกหัด สูตรลิตเติลเฟรนด์ -1</h2>
 </div>
 
 <table style="margin-top:25px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
@@ -396,7 +396,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',36) as $problem)
+    @foreach ($problems->where('proplem_table_id',171) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
