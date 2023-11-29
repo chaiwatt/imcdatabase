@@ -25,8 +25,6 @@
             color: #808080
         }
 
-
-
         .card {
             width: 80%;
             line-height: 10px;
@@ -3060,7 +3058,7 @@
     <div style="text-align: left;margin-top:10px ">
         <h2>นักเรียนจะต้อง <span
                 style="color:red;font-weight:bold;font-family:'sarabun;font-size:36px">ลดบิ๊กเฟรนด์</span> (มือขวา)
-            และ
+            แล้ว
             <span style="color:red;font-weight:bold;font-size:36px">เพิ่มสิบ</span> (มือซ้าย)
         </h2>
     </div>

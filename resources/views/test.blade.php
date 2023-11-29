@@ -4,7 +4,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>สูตรบิ๊กเฟรนด์ -9</h2>
+    <h2>สูตรบิ๊กเฟรนด์ -8</h2>
 </div>
 {{-- <div style="margin-top: 10px;margin-left:50px">
     <span style="font-size: 20px">แบบฝึกหัดที่ 1 ให้นักเรียนใช้นิ้วมือในการคิดคำตอบ</span>
@@ -277,7 +277,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>จับเวลา: ใช้นิ้วมือบวกและลบเลข สูตรบิ๊กเฟรนด์ -9 </h2>
+    <h2>จับเวลา: ใช้นิ้วมือบวกและลบเลข สูตรบิ๊กเฟรนด์ -8 </h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
@@ -381,7 +381,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>แบบฝึกหัด สูตรบิ๊กเฟรนด์ -9</h2>
+    <h2>แบบฝึกหัด สูตรบิ๊กเฟรนด์ -8</h2>
 </div>
 
 <table style="margin-top:25px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
