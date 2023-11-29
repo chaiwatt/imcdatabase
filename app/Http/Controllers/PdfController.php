@@ -19,10 +19,12 @@ class PdfController extends Controller
         $problems = Problem::where('book_id',$bookId)->get();
         
         $data = ['problems' => $problems,'studentName'=> $studentName, 'studentNickname' => $studentNickname , 'branch' => $branch];
-
+        // dd(('/assets/images/fingers/bg.png'));
         $pdf = PDF::loadView($bookName[$bookId-1],$data,[],[
-            'watermark' => $studentName,
-            'show_watermark' => true
+            // 'watermark' => $studentName,
+            'watermark_image_path' => base_path('public/assets/images/fingers/bg.png'),
+            // 'show_watermark' => true,
+            'show_watermark_image' => true,
         ]);
          return $pdf->stream($bookName[$bookId-1] . '.pdf');
     }

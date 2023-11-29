@@ -21,6 +21,11 @@ return [
 	'shrink_tables_to_fit'       => 1,
 	'display_mode'         => 'fullpage',
 	'watermark_text_alpha' => 0.05,
+	'show_watermark_image' => false,
+	'watermark_image_path'       => '',
+    'watermark_image_alpha'      => 0.05,
+    'watermark_image_size'       => 'D',
+    'watermark_image_position'   => 'P',
 	'custom_font_dir'      => base_path('public/assets/fonts/'),
 	'custom_font_data' 	   =>  [
                 'kanit' => [
