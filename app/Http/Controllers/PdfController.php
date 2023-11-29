@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use PDF;
+use App\Models\Problem;
+use Illuminate\Http\Request;
+use Mccarlosen\LaravelMpdf\LaravelMpdf;
+
+class PdfController extends Controller
+{
+    
+    public function generateBook($bookId)
+    {
+        $bookName = ['book-one','book-two','book-three','book-four','book-five','book-six'];
+        $studentName = 'ณัฎฐพัชร์ ทวีจันทร์';
+        $studentNickname = 'โปรแกรม';
+        $branch = 'ลำพูน';
+        $problems = Problem::where('book_id',$bookId)->get();
+        
+        $data = ['problems' => $problems,'studentName'=> $studentName, 'studentNickname' => $studentNickname , 'branch' => $branch];
+
+        $pdf = PDF::loadView($bookName[$bookId-1],$data,[],[
+            'watermark' => $studentName,
+            'show_watermark' => true
+        ]);
+         return $pdf->stream($bookName[$bookId-1] . '.pdf');
+    }
+}
