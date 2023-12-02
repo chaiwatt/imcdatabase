@@ -139,7 +139,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>จับเวลา: ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กเฟรนด์ -1  </h2>
+    <h2>จับเวลา: ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กเฟรนด์ -1 </h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
@@ -246,7 +246,7 @@
     <h2>แบบฝึกหัด ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กเฟรนด์ -1 </h2>
 </div>
 
-<table style="margin-top:25px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
+<table style="margin-top:25px;margin-left:50px; border:solid 1px black;margin-bottom:15px">
     <tr style="margin-bottom: 10px; text-align: center;">
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ1</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ2</td>
