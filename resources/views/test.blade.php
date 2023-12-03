@@ -3,7 +3,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กเฟรนด์ -1 </h2>
+    <h2>ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กแอนด์ลิตเติลเฟรนด์ -6 </h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black">
@@ -19,7 +19,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',112) as $problem)
+    @foreach ($problems->where('proplem_table_id',136) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -61,7 +61,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',113) as $problem)
+    @foreach ($problems->where('proplem_table_id',137) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -102,7 +102,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',114) as $problem)
+    @foreach ($problems->where('proplem_table_id',138) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -139,7 +139,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>จับเวลา: ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กเฟรนด์ -1 </h2>
+    <h2>จับเวลา: ใช้ลูกคิดบวกและลบเลข บิ๊กแอนด์ลิตเติลเฟรนด์ -6 </h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
@@ -155,7 +155,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',115) as $problem)
+    @foreach ($problems->where('proplem_table_id',139) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -201,7 +201,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',116) as $problem)
+    @foreach ($problems->where('proplem_table_id',140) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -243,7 +243,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>แบบฝึกหัด ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กเฟรนด์ -1 </h2>
+    <h2>แบบฝึกหัด ใช้ลูกคิดบวกและลบเลข สูตรบิ๊กแอนด์ลิตเติลเฟรนด์ -6 </h2>
 </div>
 
 <table style="margin-top:25px;margin-left:50px; border:solid 1px black;margin-bottom:15px">
@@ -259,7 +259,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',117) as $problem)
+    @foreach ($problems->where('proplem_table_id',141) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -349,5 +349,141 @@
     </tr>
 </table>
 
+<div class="footer">สงวนลิขสิทธ์ ©สถาบันคณิตศาสตร์ไอแมคโซโรบัน ห้ามเผยแพร่</div>
+
+
+<div class="page-break"></div>
+<header>
+    <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
+</header>
+<div class="card">
+    <h2>ใช้ลูกคิดกระดาษบวกและลบเลข </h2>
+</div>
+
+<table style="margin-top:15px;margin-left:70px; border:solid 1px black">
+    <tr style="margin-bottom: 10px; text-align: center;">
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ1</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ2</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ3</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ4</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ5</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ6</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ7</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ8</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
+    </tr>
+    @foreach ($problems->where('proplem_table_id',142) as $problem)
+    <tr>
+        <td class="td-problem-style">{{$problem->problem_1}}</td>
+        <td class="td-problem-style">{{$problem->problem_2}}</td>
+        <td class="td-problem-style">{{$problem->problem_3}}</td>
+        <td class="td-problem-style">{{$problem->problem_4}}</td>
+        <td class="td-problem-style">{{$problem->problem_5}}</td>
+        <td class="td-problem-style">{{$problem->problem_6}}</td>
+        <td class="td-problem-style">{{$problem->problem_7}}</td>
+        <td class="td-problem-style">{{$problem->problem_8}}</td>
+        <td class="td-problem-style">{{$problem->problem_9}}</td>
+        <td class="td-problem-style">{{$problem->problem_10}}</td>
+    </tr>
+    @endforeach
+
+    <tr>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+    </tr>
+
+</table>
+<table style="margin-top:25px;margin-left:70px; border:solid 1px black">
+    <tr style="margin-bottom: 10px; text-align: center;">
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ1</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ2</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ3</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ4</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ5</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ6</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ7</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ8</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
+    </tr>
+    @foreach ($problems->where('proplem_table_id',143) as $problem)
+    <tr>
+        <td class="td-problem-style">{{$problem->problem_1}}</td>
+        <td class="td-problem-style">{{$problem->problem_2}}</td>
+        <td class="td-problem-style">{{$problem->problem_3}}</td>
+        <td class="td-problem-style">{{$problem->problem_4}}</td>
+        <td class="td-problem-style">{{$problem->problem_5}}</td>
+        <td class="td-problem-style">{{$problem->problem_6}}</td>
+        <td class="td-problem-style">{{$problem->problem_7}}</td>
+        <td class="td-problem-style">{{$problem->problem_8}}</td>
+        <td class="td-problem-style">{{$problem->problem_9}}</td>
+        <td class="td-problem-style">{{$problem->problem_10}}</td>
+    </tr>
+    @endforeach
+    <tr>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+    </tr>
+
+</table>
+<table style="margin-top:25px;margin-left:70px; border:solid 1px black">
+    <tr style="margin-bottom: 10px; text-align: center;">
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ1</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ2</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ3</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ4</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ5</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ6</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ7</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ8</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
+        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
+    </tr>
+    @foreach ($problems->where('proplem_table_id',144) as $problem)
+    <tr>
+        <td class="td-problem-style">{{$problem->problem_1}}</td>
+        <td class="td-problem-style">{{$problem->problem_2}}</td>
+        <td class="td-problem-style">{{$problem->problem_3}}</td>
+        <td class="td-problem-style">{{$problem->problem_4}}</td>
+        <td class="td-problem-style">{{$problem->problem_5}}</td>
+        <td class="td-problem-style">{{$problem->problem_6}}</td>
+        <td class="td-problem-style">{{$problem->problem_7}}</td>
+        <td class="td-problem-style">{{$problem->problem_8}}</td>
+        <td class="td-problem-style">{{$problem->problem_9}}</td>
+        <td class="td-problem-style">{{$problem->problem_10}}</td>
+    </tr>
+    @endforeach
+
+    <tr>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+        <td class="td-answer-style"></td>
+    </tr>
+
+</table>
 <div class="footer">สงวนลิขสิทธ์ ©สถาบันคณิตศาสตร์ไอแมคโซโรบัน ห้ามเผยแพร่</div>
 <div class="page-break"></div>
