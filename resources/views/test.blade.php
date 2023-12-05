@@ -3,7 +3,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>แบบฝึกหัดที่ 1 ให้นักเรียนใช้ลูกคิดกระดาษในการคิดคำตอบ</h2>
+    <h2>แบบฝึกหัดที่ 18 ให้นักเรียนใช้จินตนาการในการคิดคำตอบ</h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black">
@@ -19,7 +19,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',1) as $problem)
+    @foreach ($problems->where('proplem_table_id',165) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -61,7 +61,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',2) as $problem)
+    @foreach ($problems->where('proplem_table_id',166) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -102,7 +102,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',3) as $problem)
+    @foreach ($problems->where('proplem_table_id',167) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -153,7 +153,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',4) as $problem)
+    @foreach ($problems->where('proplem_table_id',168) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -195,7 +195,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',5) as $problem)
+    @foreach ($problems->where('proplem_table_id',169) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -236,7 +236,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',6) as $problem)
+    @foreach ($problems->where('proplem_table_id',170) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -273,7 +273,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>จับเวลา: ให้นักเรียนใช้ลูกคิดในการคิดคำตอบ</h2>
+    <h2>จับเวลา: ให้นักเรียนใช้จินตนาการในการคิดคำตอบ</h2>
 </div>
 
 <table style="margin-top:15px;margin-left:70px; border:solid 1px black;margin-bottom:15px">
@@ -289,7 +289,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',7) as $problem)
+    @foreach ($problems->where('proplem_table_id',171) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -335,7 +335,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',8) as $problem)
+    @foreach ($problems->where('proplem_table_id',172) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -376,7 +376,7 @@
     <p class="studentname">สำหรับน้อง{{$studentNickname}} {{$studentName}} สาขา{{$branch}}</p>
 </header>
 <div class="card">
-    <h2>แบบฝึกหัด ให้นักเรียนใช้ลูกคิดในการคิดคำตอบ</h2>
+    <h2>แบบฝึกหัด ให้นักเรียนใช้จินตนาการในการคิดคำตอบ</h2>
 </div>
 
 <table style="margin-top:25px;margin-left:50px; border:solid 1px black;margin-bottom:15px">
@@ -392,7 +392,7 @@
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
         <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
     </tr>
-    @foreach ($problems->where('proplem_table_id',9) as $problem)
+    @foreach ($problems->where('proplem_table_id',173) as $problem)
     <tr>
         <td class="td-problem-style">{{$problem->problem_1}}</td>
         <td class="td-problem-style">{{$problem->problem_2}}</td>
@@ -418,48 +418,46 @@
         <td class="td-answer-style"></td>
         <td class="td-answer-style"></td>
     </tr>
-
-</table>
-<table style="margin-top:25px;margin-left:50px; border:solid 1px black;margin-bottom:15px">
-    <tr style="margin-bottom: 10px; text-align: center;">
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ1</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ2</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ3</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ4</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ5</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ6</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ7</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ8</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
-        <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
-    </tr>
-    @foreach ($problems->where('proplem_table_id',10) as $problem)
-    <tr>
-        <td class="td-problem-style">{{$problem->problem_1}}</td>
-        <td class="td-problem-style">{{$problem->problem_2}}</td>
-        <td class="td-problem-style">{{$problem->problem_3}}</td>
-        <td class="td-problem-style">{{$problem->problem_4}}</td>
-        <td class="td-problem-style">{{$problem->problem_5}}</td>
-        <td class="td-problem-style">{{$problem->problem_6}}</td>
-        <td class="td-problem-style">{{$problem->problem_7}}</td>
-        <td class="td-problem-style">{{$problem->problem_8}}</td>
-        <td class="td-problem-style">{{$problem->problem_9}}</td>
-        <td class="td-problem-style">{{$problem->problem_10}}</td>
-    </tr>
-    @endforeach
-    <tr>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-        <td class="td-answer-style"></td>
-    </tr>
-
+    </table>
+    <table style="margin-top:25px;margin-left:50px; border:solid 1px black;margin-bottom:15px">
+        <tr style="margin-bottom: 10px; text-align: center;">
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ1</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ2</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ3</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ4</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ5</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ6</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ7</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ8</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ9</td>
+            <td style="border: 1px solid black;text-align:center;font-weight:100">ข้อ10</td>
+        </tr>
+        @foreach ($problems->where('proplem_table_id',174) as $problem)
+        <tr>
+            <td class="td-problem-style">{{$problem->problem_1}}</td>
+            <td class="td-problem-style">{{$problem->problem_2}}</td>
+            <td class="td-problem-style">{{$problem->problem_3}}</td>
+            <td class="td-problem-style">{{$problem->problem_4}}</td>
+            <td class="td-problem-style">{{$problem->problem_5}}</td>
+            <td class="td-problem-style">{{$problem->problem_6}}</td>
+            <td class="td-problem-style">{{$problem->problem_7}}</td>
+            <td class="td-problem-style">{{$problem->problem_8}}</td>
+            <td class="td-problem-style">{{$problem->problem_9}}</td>
+            <td class="td-problem-style">{{$problem->problem_10}}</td>
+        </tr>
+        @endforeach
+        <tr>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+            <td class="td-answer-style"></td>
+        </tr>
 </table>
 <div style="margin-top: 20px;margin-left:50px">
     <span class="title">ฟังคำถามจากครูผู้สอนแล้วเขียนคำตอบลงในช่องว่าง</span>
