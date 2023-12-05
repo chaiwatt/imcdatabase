@@ -12,7 +12,7 @@ class PdfController extends Controller
     
     public function generateBook($bookId)
     {
-        $bookName = ['book-one','book-two','book-three','book-four','book-five','book-six'];
+        $bookName = ['book-one','book-two','book-three','book-four','book-five','book-six','book-seven'];
         $studentName = 'ณัฎฐพัชร์ ทวีจันทร์';
         $studentNickname = 'โปรแกรม';
         $branch = 'ลำพูน';
